@@ -3,6 +3,7 @@ layout: post
 title: Install Protractor
 tags: nodejs, protractor
 category: blog
+permalink: /blog/protractor/
 ---
 
 Protractor is an unittest framework for
