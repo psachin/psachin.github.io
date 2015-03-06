@@ -4,12 +4,12 @@ title: About
 permalink: /about/
 ---
 
-Some information about you!
+Avid GNU/Emacs user.
 
 ### More Information
 
-A place to include any other types of information that you'd like to include about yourself.
+I am too lazy to write about myself ;)
 
 ### Contact me
 
-[email@domain.com](mailto:email@domain.com)
+[iclcoolster@gmail.com](mailto:iclcoolster@gmail.com)
