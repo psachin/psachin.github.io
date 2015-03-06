@@ -16,12 +16,16 @@ install Node.js
    use `apt-get` to install Node.js.
 2. Untar using `tar -xvzf node-xxx.tar.gz`
 3. Configure, compile, and install using
-```bash
+
+
+```sh
 cd node
 ./configure
 make
 sudo make install
 ```
+
+
 4. `npm` is a package-manager for Node.js. It should installed with
    Node.js
 
