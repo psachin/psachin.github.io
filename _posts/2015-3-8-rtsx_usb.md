@@ -59,6 +59,7 @@ Again I safely ignored `MMC_REALTEK_USB` and enabled `MMC_REALTEK_USB`
 from Device Drivers -> MMC/SD/SDIO card support -> Realtek USB SD/MMC
 Card interface Driver as module.
 
+
 ![Enable MMC_REALTEK_USB]({{ site.baseurl }}/images/rtsx/realtek_usb_sd-mmc_card_interface_driver.png)
 
 I compiled the kernel again and inserted the SD-card. This time the
