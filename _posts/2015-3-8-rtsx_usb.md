@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Realtek 5129 USB Card Reader Controller
-tags: nodejs, protractor
+tags: kernel, 5129, card reader
 category: blog
 permalink: /blog/rtsx/
 comments: true

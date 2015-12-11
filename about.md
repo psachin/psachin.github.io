@@ -8,7 +8,7 @@ Avid GNU/Emacs user.
 
 ### More Information
 
-I am too lazy to write about myself ;)
+For raw posts please visit [blog-posts](https://github.com/psachin/blog-posts)
 
 ### Contact me
 
