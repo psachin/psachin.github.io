@@ -4,11 +4,66 @@ title: About
 permalink: /about/
 ---
 
-Avid GNU/Emacs user.
+Avid GNU Emacs user.
 
 ### More Information
 
-For raw posts please visit [blog-posts](https://github.com/psachin/blog-posts)
+I try not be biased with any programming language or technology thus
+trying (almost)everything at-least once ;-). GNU/Linux, Free and
+OpenSource Software are the reasons I survived so far.
+
+#### My workspace
+
+My current system is Lenovo G505s with AMD A8 Quad-core processor and
+8 Gigs of RAM running Slackware 14.1(I always prefer
+[latest kernel](https://github.com/psachin/bash_scripts/blob/master/build_my_kernel.sh)).
+I usually work on this system. My other system include Acer
+_emachines_ eM350 netbook running Slackware. I also have an old
+desktop with AMD Athlon with 2 Gigs of RAM running Slackware again!.
+The system's storage is shared via NFS across my home network,
+typically this is my NFS server. Apart from this I have very old
+Pentium 2 Machine with 350MHz processor and 64MB of RAM running Vector
+linux. I wonder how this machine
+[still runs](https://plus.google.com/+Sachinp/posts/UMCp3L6NiAn?pid=5864821069617337218&oid=113870692888444102463)?.
+
+Most of my home network and Internet connection is managed by D-LINK
+DIR-615E wireless router flashed with custom
+OpenWRT(_barrier-breaker_). This is my backup(and tiny) Linux system
+with minimal shell and `opkg` package manager.
+
+#### Tools
+
+Emacs and a terminal are the least I need.
+
+I prefer to use latest Emacs version. My Emacs is heavily configured
+for all my needs from programming(Python, Django, C, elisp, shell
+etc.), blog & note taking(org-mode), eshell, tramp, magit etc.
+Recently I fell in love with `M-x emacs-timemachine`.
+
+Terminal is occasionally needed to keep some front-end jobs running.
+
+`Git` is something I can't live without. I use to keep track of my
+personal notes, blogs, and all the projects. `magit` is a savior. It
+helps me a lot to learn insights of Git.
+
+I prefer `Gnus` over `mutt` to manage mails.
+
+#### More..
+
+I find programming in `elisp` relaxing when I'm bored with Python and
+friends. Though not much but I do write some helper functions in
+elisp. These code snippets are managed and shared on
+[haqiba.org](http://haqiba.org)
+
+#### Blogs
+
+Some of my posts are pushed to
+[carlfg.wordpress.com](https://carlfg.wordpress.com/) and I'm planning
+to migrate it here.
+
+For raw posts please visit
+[blog-posts](https://github.com/psachin/blog-posts) written in
+[org-mode](http://orgmode.org/)
 
 ### Contact me
 
