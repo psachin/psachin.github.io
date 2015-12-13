@@ -8,22 +8,25 @@ Avid GNU Emacs user.
 
 ### More Information
 
-I try not be biased with any programming language or technology thus
-trying (almost)everything at-least once ;-). GNU/Linux, Free and
-OpenSource Software are the reasons I survived so far.
+I try not be biased with any programming language or technology.
+GNU/Linux, Free and OpenSource Software are the reasons I survived so
+far.
 
 #### My workspace
 
 My current system is Lenovo G505s with AMD A8 Quad-core processor and
 8 Gigs of RAM running Slackware 14.1(I always prefer
 [latest kernel](https://github.com/psachin/bash_scripts/blob/master/build_my_kernel.sh)).
-I usually work on this system. My other system include Acer
-_emachines_ eM350 netbook running Slackware. I also have an old
-desktop with AMD Athlon with 2 Gigs of RAM running Slackware again!.
-The system's storage is shared via NFS across my home network,
-typically this is my NFS server. Apart from this I have very old
-Pentium 2 Machine with 350MHz processor and 64MB of RAM running Vector
-linux. I wonder how this machine
+I usually work on this system.
+
+My other system includes Acer _emachines_ eM350 netbook running
+Slackware. I also have an old desktop with AMD Athlon with 2 Gigs of
+RAM running Slackware again!. The system's storage is shared via NFS
+across my home network, typically this is my NFS server.
+
+Apart from this I have very old Intel Pentium II Machine with 350MHz
+processor and 64MB of RAM running Vector linux. I wonder how this
+machine
 [still runs](https://plus.google.com/+Sachinp/posts/UMCp3L6NiAn?pid=5864821069617337218&oid=113870692888444102463)?.
 
 Most of my home network and Internet connection is managed by D-LINK
@@ -59,7 +62,7 @@ elisp. These code snippets are managed and shared on
 
 Some of my posts are pushed to
 [carlfg.wordpress.com](https://carlfg.wordpress.com/) and I'm planning
-to migrate it here.
+to migrate them here.
 
 For raw posts please visit
 [blog-posts](https://github.com/psachin/blog-posts) written in
