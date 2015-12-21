@@ -4,7 +4,7 @@ title: About
 permalink: /about/
 ---
 
-Avid GNU Emacs user.
+Linux Developer, FOSS enthusiast, & avid GNU Emacs user.
 
 ### More Information
 
@@ -24,10 +24,10 @@ Slackware. I also have an old desktop with AMD Athlon with 2 Gigs of
 RAM running Slackware again!. The system's storage is shared via NFS
 across my home network, typically this is my NFS server.
 
-Apart from this I have very old Intel Pentium II Machine with 350MHz
+Apart from this I have a very old Intel Pentium II Machine with 350MHz
 processor and 64MB of RAM running Vector linux. I wonder how this
-machine
-[still runs](https://plus.google.com/+Sachinp/posts/UMCp3L6NiAn?pid=5864821069617337218&oid=113870692888444102463)?.
+machine [still
+runs](https://plus.google.com/+Sachinp/posts/UMCp3L6NiAn?pid=5864821069617337218&oid=113870692888444102463)?.
 
 Most of my home network and Internet connection is managed by D-LINK
 DIR-615E wireless router flashed with custom
@@ -45,7 +45,7 @@ Recently I fell in love with `M-x emacs-timemachine`.
 
 Terminal is occasionally needed to keep some front-end jobs running.
 
-`Git` is something I can't live without. I use to keep track of my
+`Git` is something I can't live without. I use Git to keep track of my
 personal notes, blogs, and all the projects. `magit` is a savior. It
 helps me a lot to learn insights of Git.
 
