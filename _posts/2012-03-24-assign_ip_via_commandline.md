@@ -42,4 +42,4 @@ following format
     nameserver 8.8.8.8
     nameserver 8.8.4.4
 
-All the about changes will be temporary(unless you reboot the system)
+All the above changes will be temporary(unless you reboot the system)
