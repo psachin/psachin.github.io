@@ -4,6 +4,7 @@ title: Introducing Clojure
 tags: clojure
 category: blog
 permalink: /blog/introducing-clojure/
+author: sachin
 comments: true
 ---
 

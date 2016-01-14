@@ -4,6 +4,7 @@ title: Install Protractor
 tags: nodejs, protractor
 category: blog
 permalink: /blog/protractor/
+author: sachin
 comments: true
 ---
 

@@ -4,6 +4,7 @@ title: Python virtualenv
 tags: python, setv, virtualenv
 category: blog
 permalink: /blog/setv/
+author: sachin
 comments: true
 ---
 

@@ -4,6 +4,7 @@ title: Lost commit
 tags: git, commit, remote
 category: blog
 permalink: /blog/lost-commit/
+author: sachin
 comments: true
 ---
 

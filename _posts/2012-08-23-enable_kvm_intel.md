@@ -4,6 +4,7 @@ title: Enable Kernel virtualization on Intel/AMD arch
 tags: kvm, virtualization, linux
 category: blog
 permalink: /blog/kvm/
+author: sachin
 comments: true
 ---
 

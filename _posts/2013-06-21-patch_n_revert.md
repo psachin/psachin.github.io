@@ -4,8 +4,11 @@ title: patch and revert source code
 tags: patch, linux, kernel, revert
 category: blog
 permalink: /blog/patch-n-revert/
+author: sachin
 comments: true
 ---
+
+Using `patch` efficiently.
 
 We often have the situation while testing to applying a patch or to
 remove changes made by a patch. It may happen that a patch is not

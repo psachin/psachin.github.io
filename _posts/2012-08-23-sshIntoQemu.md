@@ -4,6 +4,7 @@ title: Qemu - System emulator
 tags: qemu, ssh
 category: blog
 permalink: /blog/qemu/
+author: sachin
 comments: true
 ---
 

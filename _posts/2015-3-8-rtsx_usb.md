@@ -4,6 +4,7 @@ title: Realtek 5129 USB Card Reader Controller
 tags: kernel, 5129, card reader
 category: blog
 permalink: /blog/rtsx/
+author: sachin
 comments: true
 ---
 

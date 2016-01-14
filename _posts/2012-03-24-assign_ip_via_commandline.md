@@ -4,6 +4,7 @@ title: Assign IP address via command-line
 tags: ifconfig, command line, terminal
 category: blog
 permalink: /blog/ipaddress-commandline/
+author: sachin
 comments: true
 ---
 
