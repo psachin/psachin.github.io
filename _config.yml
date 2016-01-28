@@ -22,6 +22,7 @@ footer-links:
   facebook:
   flickr:
   github: psachin
+  gitlab: psachin
   instagram:
   linkedin:
   pinterest:
@@ -58,7 +59,7 @@ authors:
     display_name: Sachin
     gravatar: 7cf56d80d5fd30fa736647c22b751784?s=80
     email: iclcoolster@gmail.com
-    web: http://psachin.github.
+    web: http://psachin.github.io
     twitter:
     github: psachin
 
