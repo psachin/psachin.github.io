@@ -68,6 +68,16 @@ For raw posts please visit
 [blog-posts](https://github.com/psachin/blog-posts) written in
 [org-mode](http://orgmode.org/)
 
+#### Presentations/Slides
+
+All my presentation slides are pushed to
+[https://github.com/psachin/slides](https://github.com/psachin/slides)
+
+With few exceptions:
+
+* [py-starwars](http://psachin.github.io/py-starwars/): Introductory
+  Python talk
+
 ### Contact me
 
 [iclcoolster@gmail.com](mailto:iclcoolster@gmail.com)
