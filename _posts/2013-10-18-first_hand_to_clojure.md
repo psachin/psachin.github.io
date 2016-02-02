@@ -50,7 +50,6 @@ will create all necessary file required for any Clojure project.
 
 - Sample `profiles.clj` file
 
-```clojure
 
         {:user {:plugins [[lein-difftest "1.3.8"]
                        [lein-marginalia "0.7.1"]
@@ -59,7 +58,7 @@ will create all necessary file required for any Clojure project.
                        [lein-exec "0.3.0"]
                        [lein-ring "0.8.7"]]}}
 
-```
+
 
 You can see all the required libraries which are default to all
 Clojure projects.
@@ -95,26 +94,18 @@ once you create a project.
 - Lets say the project name is `my-stuff`, go to project directory and
   run REPL using
 
-```bash
-    cd my-stuff
-    lein repl
-```
+        cd my-stuff
+        lein repl
+
 
 - Inside `repl` prompt, run `(-main)`
 
-```clojure
+        my-stuff.core=> (-main)
 
-    my-stuff.core=> (-main)
-
-```
 
 - If you have done some change in a code, reload it
 
-```clojure
-
-    my-stuff.core=> (require 'my-stuff.core :reload)
-
-```
+        my-stuff.core=> (require 'my-stuff.core :reload)
 
 - Run a program using `lein` (Outside the REPL prompt.)
 
@@ -144,16 +135,12 @@ A Clojure library can be created in a same way.
 
 Inside a REPL prompt, simple queries can be performed
 
-```clojure
-
     user=> (require 'my-lib.core)
     nil
     user=> (ns my-lib.core)
     nil
     my-lib.core=> (my-func 3)
     9
-
-```
 
 ### Dependencies
 
@@ -162,32 +149,27 @@ Inside a REPL prompt, simple queries can be performed
 
 - Below is my sample `profiles.clj` file
 
-```clojure
 
-      {:user {:plugins [[lein-difftest "1.3.8"]
-                        [lein-marginalia "0.7.1"]
-                        [lein-pprint "1.1.1"]
-                        [lein-swank "1.4.5"]
-                        [lein-exec "0.3.0"]
-                        [lein-ring "0.8.7"]]}}
-```
+        {:user {:plugins [[lein-difftest "1.3.8"]
+                         [lein-marginalia "0.7.1"]
+                         [lein-pprint "1.1.1"]
+                         [lein-swank "1.4.5"]
+                         [lein-exec "0.3.0"]
+                         [lein-ring "0.8.7"]]}}
+
 
 - Or you can have it specific to the project
 
-```clojure
-
-    (defproject perfect-clojure "0.1.0-SNAPSHOT"
-    :description "A simple clojure app to test my environment"
-    :url "<http://clojuremadesimple.co.uk>"
-    :license {:name "Eclipse Public License"
-    :url "<http://google.co.uk>"}
-    :dependencies
-    :dev-dependencies [[midje "1.4.0"]
-                       [autodoc "0.9.0"]]
-    :plugins
-    )
-
-```
+        (defproject perfect-clojure "0.1.0-SNAPSHOT"
+         :description "A simple clojure app to test my environment"
+         :url "<http://clojuremadesimple.co.uk>"
+         :license {:name "Eclipse Public License"
+         :url "<http://google.co.uk>"}
+         :dependencies
+         :dev-dependencies [[midje "1.4.0"]
+                            [autodoc "0.9.0"]]
+         :plugins
+        )
 
 - And setup dependencies using
 
@@ -225,21 +207,15 @@ Inside a REPL prompt, simple queries can be performed
 
 - Install `marginalia`
 
-```bash
-
-    cd ~/.lein
-    touch profiles.clj
-
-```
+        cd ~/.lein
+        touch profiles.clj
 
 - Add following line to `profiles.clj` (Your `marginalia` version may
   be different)
 
-```clojure
 
-    {:user {:plugins }}
+        {:user {:plugins }}
 
-```
 
 - Then, in your project
 
@@ -255,7 +231,16 @@ Inside a REPL prompt, simple queries can be performed
 
 - Browse docs in a web-browser
 
-    *file://path/to/my-proj/docs/uberdoc.html*
+   *file://path/to/my-proj/docs/uberdoc.html*
+
+## Next (Updated on 03 Feb, 2016)
+
+* Checkout this post on
+[Sending an SMS](https://www.twilio.com/blog/2016/02/getting-started-with-clojure.html)
+using Clojure.
+
+* [Clojure from the ground up](https://aphyr.com/tags/Clojure-from-the-ground-up)
+blog post series by Kyle Kingsbury.
 
 ## References
 
