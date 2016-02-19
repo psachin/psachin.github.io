@@ -9,10 +9,10 @@ Linux Developer, FOSS enthusiast, & avid GNU Emacs user.
 ### More Information
 
 I try not be biased with any programming language or technology.
-GNU/Linux, Free and OpenSource Software are the reasons I survived so
+GNU/Linux, Free and Open Source Software are the reasons I survived so
 far.
 
-#### My workspace
+#### My work-space
 
 My current system is Lenovo G505s with AMD A8 Quad-core processor and
 8 Gigs of RAM running Slackware 14.1(I always prefer
@@ -78,6 +78,12 @@ With few exceptions:
 * [py-starwars](http://psachin.github.io/py-starwars/): Introductory
   Python talk
 
-### Contact me
+#### Articles
 
-[iclcoolster@gmail.com](mailto:iclcoolster@gmail.com)
+* [Getting started with Emacs text
+  editor(opensource.com)](https://opensource.com/life/16/2/intro-to-emacs)
+
+* [Configuring Huawei-EC152
+  modem](http://www.linuxquestions.org/linux/answers/hardware/configuring_huaweiec152_modem):
+  My very first article appeared on linuxquestions.org. I just started using
+  GNU/Linux that time and USB-modeswitch was also quite new.
