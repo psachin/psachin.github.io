@@ -6,13 +6,15 @@ permalink: /about/
 
 Linux Developer, FOSS enthusiast, & avid GNU Emacs user.
 
-### More Information
+#### More Information
 
 I try not be biased with any programming language or technology.
 GNU/Linux, Free and Open Source Software are the reasons I survived so
 far.
 
 #### My work-space
+
+##### @Home
 
 My current system is Lenovo G505s with AMD A8 Quad-core processor and
 8 Gigs of RAM running Slackware 14.1(I always prefer
@@ -34,7 +36,11 @@ DIR-615E wireless router flashed with custom
 OpenWRT(_barrier-breaker_). This is my backup(and tiny) Linux system
 with minimal shell and `opkg` package manager.
 
-#### Tools
+##### @Work
+
+*Generating...*
+
+#### Tools I use
 
 Emacs and a terminal are the least I need.
 
@@ -62,7 +68,7 @@ elisp. These code snippets are managed and shared on
 
 Some of my posts are pushed to
 [carlfg.wordpress.com](https://carlfg.wordpress.com/) and I'm planning
-to migrate them here.
+to migrate them [here](http://psachin.github.io).
 
 For raw posts please visit
 [blog-posts](https://github.com/psachin/blog-posts) written in
