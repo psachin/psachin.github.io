@@ -93,3 +93,7 @@ With few exceptions:
   modem](http://www.linuxquestions.org/linux/answers/hardware/configuring_huaweiec152_modem):
   My very first article appeared on linuxquestions.org. I just started using
   GNU/Linux that time and USB-modeswitch was also quite new.
+
+#### IRC
+
+	=/NICK psachin= @ irc.freenode.net
