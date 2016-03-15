@@ -96,4 +96,4 @@ With few exceptions:
 
 #### IRC
 
-	=/NICK psachin= @ irc.freenode.net
+`/NICK psachin` @ irc.freenode.net
