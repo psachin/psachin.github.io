@@ -48,6 +48,14 @@ Output:
     }
 
 
+### Update <2016-04-06 Wed>
+
+I you enable shell debug ON USING `set -e`, you can still read a
+function definition.
+
+	set -e
+	which mcd
+
 ## Find function location in a file
 
 In the similar way `declare` can be used to locate the function.
