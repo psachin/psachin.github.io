@@ -4,15 +4,21 @@ title: About
 permalink: /about/
 ---
 
-Linux Developer, FOSS enthusiast, & avid GNU Emacs user.
+![img]({{ site.baseurl }}/images/about/isitme.png "Is it Me?"){: .center-image}
 
-#### More Information
+Open source developer, FOSS enthusiast, & avid GNU Emacs user.
 
-I try not be biased with any programming language or technology.
+#### More information
+
+![img]({{ site.baseurl }}/images/about/rx_open_source.jpg){: .center-image}
+
+I try not to be biased with any programming language or technology.
 GNU/Linux, Free and Open Source Software are the reasons I survived so
 far.
 
 #### My work-space
+
+![img]({{ site.baseurl }}/images/about/computers-300px.png){: .center-image}
 
 ##### @Home
 
@@ -21,10 +27,10 @@ My current system is Lenovo G505s with AMD A8 Quad-core processor and
 [latest kernel](https://github.com/psachin/bash_scripts/blob/master/build_my_kernel.sh)).
 I usually work on this system.
 
-My other system includes Acer _emachines_ eM350 netbook running
+My other system includes Acer _emachines_ eM350 netbook also running
 Slackware. I also have an old desktop with AMD Athlon with 2 Gigs of
 RAM running Slackware again!. The system's storage is shared via NFS
-across my home network, typically this is my NFS server.
+across my home network, basically this is my NFS server.
 
 Apart from this I have a very old Intel Pentium II Machine with 350MHz
 processor and 64MB of RAM running Vector linux. I wonder how this
@@ -42,14 +48,15 @@ with minimal shell and `opkg` package manager.
 
 #### Tools I use
 
+![img]({{ site.baseurl }}/images/about/tools-server-300px.png){: .center-image}
+
 Emacs and a terminal are the least I need.
 
 I prefer to use latest Emacs version. My Emacs is heavily configured
-for all my needs from programming(Python, Django, C, elisp, shell
-etc.), blog & note taking(org-mode), eshell, tramp, magit etc.
-Recently I fell in love with `M-x emacs-timemachine`.
-
-Terminal is occasionally needed to keep some front-end jobs running.
+for all my needs from programming(Python, Django, C, elisp, Ruby,
+shell etc.), blog & note taking(org-mode), eshell, tramp, magit etc.
+Recently I fell in love with `M-x emacs-timemachine`. Terminal is
+occasionally needed to keep some front-end jobs running.
 
 `Git` is something I can't live without. I use Git to keep track of my
 personal notes, blogs, and all the projects. `magit` is a savior. It
@@ -66,19 +73,18 @@ elisp. These code snippets are managed and shared on
 
 #### Blogs
 
+![img]({{ site.baseurl }}/images/about/Anonymous-pen-pencil-3-300px.png){: .center-image}
+
 Some of my posts are pushed to
 [carlfg.wordpress.com](https://carlfg.wordpress.com/) and I'm planning
-to migrate them [here](http://psachin.github.io).
-
-For raw posts please visit
-[blog-posts](https://github.com/psachin/blog-posts) written in
+to migrate them [here](http://psachin.github.io). For raw posts please
+visit [blog-posts](https://github.com/psachin/blog-posts) written in
 [org-mode](http://orgmode.org/)
 
 #### Presentations/Slides
 
 All my presentation slides are pushed to
-[https://github.com/psachin/slides](https://github.com/psachin/slides)
-
+[https://github.com/psachin/slides](https://github.com/psachin/slides).
 With few exceptions:
 
 * [py-starwars](http://psachin.github.io/py-starwars/): Introductory
@@ -96,4 +102,6 @@ With few exceptions:
 
 #### IRC
 
-`/NICK psachin` @ irc.freenode.net
+![img]({{ site.baseurl }}/images/about/skogskanten-300px.png){: .center-image}
+
+  `psachin@{RedHat, freenode, OFTC}`
