@@ -6,9 +6,9 @@ permalink: /about/
 
 ![img]({{ site.baseurl }}/images/about/isitme.png "Is it Me?"){: .center-image}
 
-Open source developer, FOSS enthusiast, & avid GNU Emacs user.
+Open source developer, FOSS enthusiast, & avid GNU Emacs user. [My public key](http://pgp.mit.edu/pks/lookup?op=get&search=0xE5F9CE4862AA06E2)
 
-#### More information
+### More information
 
 ![img]({{ site.baseurl }}/images/about/rx_open_source.png){: .center-image}
 
@@ -46,7 +46,7 @@ with minimal shell and `opkg` package manager.
 
 *Generating...*
 
-#### Tools I use
+### Tools I use
 
 ![img]({{ site.baseurl }}/images/about/tools-server-300px.png){: .center-image}
 
@@ -64,14 +64,14 @@ helps me a lot to learn insights of Git.
 
 I prefer `Gnus` over `mutt` to manage mails.
 
-#### More..
+### More..
 
 I find programming in `elisp` relaxing when I'm bored with Python and
 friends. Though not much but I do write some helper functions in
 elisp. These code snippets are managed and shared on
 [haqiba.org](http://haqiba.org).
 
-#### Blogs
+### Blogs
 
 ![img]({{ site.baseurl }}/images/about/Anonymous-pen-pencil-3-300px.png){: .center-image}
 
@@ -82,7 +82,7 @@ to migrate them [here](http://psachin.github.io). For raw posts please
 visit [blog-posts](https://github.com/psachin/blog-posts) written in
 [org-mode](http://orgmode.org/).
 
-#### Presentations/Slides
+### Presentations/Slides
 
 All my presentation slides are pushed to
 [https://github.com/psachin/slides](https://github.com/psachin/slides).
@@ -91,7 +91,7 @@ With few exceptions:
 * [py-starwars](http://psachin.github.io/py-starwars/): Introductory
   Python talk.
 
-#### Articles
+### Articles
 
 * [Getting started with Emacs text
   editor(opensource.com)](https://opensource.com/life/16/2/intro-to-emacs).
@@ -101,7 +101,7 @@ With few exceptions:
   My very first article appeared on linuxquestions.org. I just started using
   GNU/Linux that time and USB-modeswitch was also quite new.
 
-#### IRC
+### IRC
 
 ![img]({{ site.baseurl }}/images/about/skogskanten-300px.png){: .center-image}
 
