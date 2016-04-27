@@ -6,7 +6,7 @@ permalink: /about/
 
 ![img]({{ site.baseurl }}/images/about/isitme.png "Is it Me?"){: .center-image}
 
-Open source developer, FOSS enthusiast, & avid GNU Emacs user. [My public key](http://pgp.mit.edu/pks/lookup?op=get&search=0xE5F9CE4862AA06E2)
+Open source developer, FOSS enthusiast, & avid GNU Emacs user. [My public keys](http://pgp.mit.edu/pks/lookup?search=psachin&op=index)
 
 ### More information
 
