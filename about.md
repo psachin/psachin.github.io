@@ -91,6 +91,8 @@ With few exceptions:
 * [py-starwars](http://psachin.github.io/py-starwars/): Introductory
   Python talk.
 
+* [OpenStack Swift Object Storage](http://redhat.slides.com/psachin/rhosp-swift-2016)
+
 ### Articles
 
 * [Getting started with Emacs text
