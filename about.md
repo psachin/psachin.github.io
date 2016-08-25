@@ -88,10 +88,17 @@ All my presentation slides are pushed to
 [https://github.com/psachin/slides](https://github.com/psachin/slides).
 With few exceptions:
 
+* [GNU Hackers Meeting-2016](http://psachin.github.io/.emacs.d/):
+  Manage GNU Emacs configuration using [literate
+  programming](http://orgmode.org/worg/org-contrib/babel/intro.html).
+
+* [OpenStack Swift Object
+  Storage](http://redhat.slides.com/psachin/rhosp-swift-2016): Session
+  covered Swift object storage architecture and demonstrated Object
+  versioning in Swift.
+
 * [py-starwars](http://psachin.github.io/py-starwars/): Introductory
   Python talk.
-
-* [OpenStack Swift Object Storage](http://redhat.slides.com/psachin/rhosp-swift-2016)
 
 ### Articles
 
