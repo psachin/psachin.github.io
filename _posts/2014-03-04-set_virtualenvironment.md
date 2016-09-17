@@ -8,7 +8,12 @@ author: sachin
 comments: true
 ---
 
-`setv` an alternative to `virtualenvwrapper`
+`setv`: _Lightweight Python virtual environment manager_
+
+
+__Update__[March 30, 2016]: _I created
+[setV](https://github.com/psachin/setV) as a separate project with
+installer and readme. This post is quite old._
 
 I like to have a separate
 [virtualenv](http://www.virtualenv.org/en/latest/) for each python
