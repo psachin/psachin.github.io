@@ -48,7 +48,7 @@ with minimal shell and `opkg` package manager.
 
 ### Tools I use
 
-![img]({{ site.baseurl }}/images/about/tools-server-300px.png){: .center-image}
+![img]({{ site.baseurl }}/images/about/tools-server-small.png){: .center-image}
 
 Emacs and a terminal are the least I need.
 
@@ -73,7 +73,7 @@ elisp. These code snippets are managed and shared on
 
 ### Blogs
 
-![img]({{ site.baseurl }}/images/about/Anonymous-pen-pencil-3-300px.png){: .center-image}
+![img]({{ site.baseurl }}/images/about/Anonymous-pen-pencil-small.png){: .center-image}
 
 
 Some of my posts are pushed to
@@ -86,7 +86,12 @@ visit [blog-posts](https://github.com/psachin/blog-posts) written in
 
 All my presentation slides are pushed to
 [https://github.com/psachin/slides](https://github.com/psachin/slides).
-With few exceptions:
+With few exceptions(Online):
+
+* [Design your private cloud with
+  RHOSP](http://redhat.slides.com/psachin/rh-forum-2016): Introduction
+  to Red Hat OpenStack Platform, Red Hat forum 2016.
+  [[PDF]](https://github.com/psachin/slides/raw/master/RH-forum-2016/design-your-private-cloud-openstack-redhat.slides.com.pdf)
 
 * [GNU Hackers Meeting-2016](http://psachin.github.io/.emacs.d/):
   Manage GNU Emacs configuration using [literate
