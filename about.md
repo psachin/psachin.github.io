@@ -91,7 +91,7 @@ With few exceptions(Online):
 * [Design your private cloud with
   RHOSP](http://redhat.slides.com/psachin/rh-forum-2016): Introduction
   to Red Hat OpenStack Platform, Red Hat forum 2016.
-  [[PDF]](https://github.com/psachin/slides/raw/master/RH-forum-2016/design-your-private-cloud-openstack-redhat.slides.com.pdf)
+  [[PDF](https://github.com/psachin/slides/raw/master/RH-forum-2016/design-your-private-cloud-openstack-redhat.slides.com.pdf) | [LaTeX Beamer](https://github.com/psachin/slides/blob/master/RH-forum-2016/design-your-private-cloud-openstack.pdf)]
 
 * [GNU Hackers Meeting-2016](http://psachin.github.io/.emacs.d/):
   Manage GNU Emacs configuration using [literate
