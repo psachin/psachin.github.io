@@ -8,7 +8,7 @@ author: sachin
 comments: true
 ---
 
-## List of commands for day-to-day use
+List of commands for day-to-day use
 
 * SOCKS proxy using SSH
 
