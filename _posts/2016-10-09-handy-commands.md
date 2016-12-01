@@ -10,7 +10,7 @@ comments: true
 
 List of commands for day-to-day use
 
-(*Updated on October 10, 2016*)
+(*Updated on Dec 01, 2016*)
 
 #### Generic
 
@@ -90,11 +90,17 @@ all files needed to properly view the page.*
   ffmpeg -i video.mp4 -f mp3 -ab 192000 -vn music.mp3
   ```
 
+  or specify codec to use `libmp3lame` in this case.
+
+  ```
+  ffmpeg -i video.mp4 -f mp3 -codec:a libmp3lame -ab 320000 -vn music.mp3
+  ```
+
   `-i`: *input file*
 
   `-f mp3`: *file format should be MP3*
 
-  `-ab 192000`: *audio should be encoded at 192Kbps*
+  `-ab 192000`: *audio should be encoded at 192Kbps. 320000 for 320Kbps*
 
   `-vn`: *don't want video*
 
