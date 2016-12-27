@@ -15,7 +15,11 @@ user.
 ![img]({{ site.baseurl }}/images/about/rx_open_source.png){: .center-image}
 
 I try not to be biased with any programming language or technology. I
-work on GNU/Linux and Free & Open Source Software for living.
+work on GNU/Linux and Free & Open Source Software for living. If you
+are passionate about GNU and Free Software like me, I encourage you to
+watch
+this [YouTube video](https://www.youtube.com/watch?v=Er1pM9suxvE) by
+Benjamin Mako Hill.
 
 #### My work-space
 
