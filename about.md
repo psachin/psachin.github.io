@@ -135,3 +135,11 @@ With few exceptions(Online):
 ![img]({{ site.baseurl }}/images/about/skogskanten-300px.png){: .center-image}
 
   `psachin@{RedHat, freenode, OFTC}`
+
+### Social
+
+[Mark Zuckerberg is TIME Magazine's Person of the Year? Where's the
+"dislike" button?](http://www.fsf.org/fb)
+
+![img](http://static.fsf.org/nosvn/no-facebook-me.png "Not f'd — you won't find me on Facebook"){:
+.center-image}
