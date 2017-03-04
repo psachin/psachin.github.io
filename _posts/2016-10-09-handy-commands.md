@@ -10,7 +10,7 @@ comments: true
 
 List of commands for day-to-day use
 
-(*Updated on Dec 01, 2016*)
+(*Updated on Mar 04, 2017*)
 
 #### Generic
 
@@ -81,7 +81,7 @@ all files needed to properly view the page.*
 * FLV to MP4
 
   ```
-  ffmpeg -i input.flv -sameq -ar 22050 output.mp4
+  ffmpeg -i input.flv -qscale 1 -ar 22050 output.mp4
   ```
 
 * Extract audio(MP3) from MP4 video
@@ -110,8 +110,10 @@ all files needed to properly view the page.*
   *Cut video starting from 19 min 49 seconds up to 04 mins 18 seconds.*
 
   ```
-  ffmpeg -y -i Video.mp4 -sameq -ss 00:19:49.0 -t 00:04:18.0 -acodec copy -vcodec copy output.mp4
+  ffmpeg -y -i Video.mp4 -qscale 1 -ss 00:19:49.0 -t 00:04:18.0 -acodec copy -vcodec copy output.mp4
   ```
+
+  _Note_: `-sameq` was removed in recent version of `ffmpeg`
 
 * Use `mplayer` to extract audio(MP3)
 
