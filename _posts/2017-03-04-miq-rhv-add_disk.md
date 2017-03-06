@@ -20,11 +20,11 @@ Post describes a way to attach additional disk to RHV VM using button.
 Just to get my hands dirty
 on
 [ManageIQ's Automate model](http://manageiq.org/docs/reference/latest/doc-Methods_Available_for_Automation/miq/),
-I started working on a way to attach additional disk to VM
+I started working on a way to attach additional disk to VM running
 on
 [Red Hat Virtualization](https://access.redhat.com/products/red-hat-virtualization).
-Although it can be easily done by "Reconfigure this VM", I wanted a way
-to do this via Automate. I did found two ways to do this, one
+Although it can be easily done by "Reconfigure this VM", I wanted a
+way to do this via Automate. I did found two ways to do this, one
 described
 in
 [Mastering Automation in CloudForms & ManageIQ](https://pemcg.gitbooks.io/mastering-automation-in-cloudforms-4-2-and-manage/content/customising_vm_provisioning/chapter.html) and
@@ -51,7 +51,7 @@ to VM including notifications and email.
 	<b>Automate datastore</b>
 </p>
 
-Now datastores can be managed by [`git`](https://git-scm.com) has seen
+Now datastores can be managed by [`git`](https://git-scm.com) as seen
 below.
 
 <p align="center">
@@ -68,10 +68,10 @@ below.
 One also needs to create a service dialog which prompts for **disk
 size** and **disk provisioning type**. These fields are then imported
 by `add_disk`. The disk is then attached based on user defined
-parameters. I have
-imported
+parameters. I have imported **Add
+disk**
 [service dialog](https://gist.github.com/psachin/d601fc54c9ba060c132fbf052af8c7c7) in
-form on yaml for reference.
+form of yaml for reference.
 
 <p align="center">
 <img src="{{ site.baseurl }}/images/miq-add-disk/dialog_add_disk.png"
@@ -86,7 +86,7 @@ form on yaml for reference.
 ### Button
 
 Finally we need a button to call instance `hot_add_disk`. A button
-calls request type `AddDisk` from `/System/Process/` as seen below.
+calls `request type` "AddDisk" from `/System/Process/` as seen below.
 Please find button in form of
 yaml
 [here](https://gist.github.com/psachin/7079e1328810bb61dda485845009f921).

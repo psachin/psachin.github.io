@@ -41,10 +41,10 @@ Slackware. I also have an old desktop with AMD Athlon with 2 Gigs of
 RAM running Slackware again!. The system's storage is shared via NFS
 across my home network, basically this is my NFS server.
 
-Apart from this I have a very old Intel Pentium II Machine with 350MHz
-processor and 64MB of RAM running Vector Linux. I wonder how this
+Apart from this I had a very old Intel Pentium II Machine with 350MHz
+processor and 64MB of RAM running Vector Linux. ~~I wonder how this
 machine [still
-runs](https://plus.google.com/+Sachinp/posts/UMCp3L6NiAn?pid=5864821069617337218&oid=113870692888444102463)?
+runs](https://plus.google.com/+Sachinp/posts/UMCp3L6NiAn?pid=5864821069617337218&oid=113870692888444102463)?~~
 
 Most of my home network and Internet connection is managed by D-LINK
 DIR-615E wireless router flashed with custom
