@@ -8,7 +8,7 @@ permalink: /about/
 
 Developer, FOSS enthusiast, & avid GNU Emacs
 user.
-[My public keys](http://pgp.mit.edu/pks/lookup?search=psachin&op=index)
+[My public key](http://pgp.mit.edu/pks/lookup?search=psachin&op=index)
 
 ### More information
 
