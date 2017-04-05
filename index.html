@@ -12,7 +12,7 @@ layout: default
 
 	<div class="date">
 	  {% if post.author %}
-	  By {{ post.author|capitalize }}
+	  by {{ post.author|capitalize }}
 	  {% endif %}
 	  <div style="float: right;">
 		{{ post.date | date: "%B %e, %Y" }}
@@ -23,7 +23,6 @@ layout: default
       {{ post.excerpt }}
 	</div>
 
-	<a href="{{ site.baseurl }}{{ post.url }}" class="read-more">Read More</a>
   </article>
   {% endfor %}
 </div>
