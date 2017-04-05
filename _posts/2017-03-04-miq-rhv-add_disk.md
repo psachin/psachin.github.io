@@ -52,7 +52,8 @@ to VM including notifications and email.
 </p>
 
 Now datastores can be managed by [`git`](https://git-scm.com) as seen
-below.
+below. Enter git repository URL with valid credentials and click
+submit button.
 
 <p align="center">
 <img src="{{ site.baseurl }}/images/miq-add-disk/automate-git.png"
@@ -100,7 +101,8 @@ yaml
 	<b>Create button to add disk</b>
 </p>
 
-Button will appear on VM's summary page as below.
+A button will be visible under 'Actions' dropdown on VM's summary page
+as below.
 
 <p align="center">
 <img src="{{ site.baseurl }}/images/miq-add-disk/button_action_add_disk.png"
@@ -142,6 +144,8 @@ already done, please upgrade ManageIQ version following below steps._
 	vmdb
 	git fetch --all
 	git checkout euwe-2
+	git checkout -b euwe-2
 	bundle install
+	# or bin/install
 	bundle exec rake evm:compile_assets
 	bundle exec rake evm:restart
