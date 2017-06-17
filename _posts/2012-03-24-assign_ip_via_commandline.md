@@ -12,7 +12,7 @@ Sometimes, assigning IP address using command line is much more easier
 than using Network manager applet, this post covers examples with
 syntax
 
-(Updated on Dec 01, 2016)
+(Updated on June 17, 2017)
 
 
 _Note_: You must be `root` or `sudo` user to run following commands.
@@ -26,7 +26,7 @@ Syntax
 
 	# or
 
-	ip addr add <IP-ADDRESS> dev <INTERFACE>
+	ip addr add <IP-ADDRESS/CIDR> dev <INTERFACE>
 
 Example
 
@@ -65,13 +65,18 @@ following format
 
 All the above changes will be temporary(unless you reboot the system)
 
-## Additional scenerio
+## Additional scenario
 
 - You want 10.10.10.x address space to bypass default gateway of the
-  network
-- You can reach network range of 10.10.10.0/24 via 192.168.1.11 on
-  device eth0
+  network. You can reach network range of 10.10.10.0/24 via
+  192.168.1.11 on device `eth0`
+
+		ip route add 10.10.10.0/24 via 192.168.1.11 dev eth0
 
 
-		ip route add 10.10.10.0/24 via 291.168.1.11 dev eth0
+### Make routes persistent on Fedora
 
+Add following entry into the file
+`/etc/sysconfig/network-scripts/route-DEVICE_NAME`
+
+	10.10.10.0/24 via 192.168.1.11 dev DEVICE_NAME
