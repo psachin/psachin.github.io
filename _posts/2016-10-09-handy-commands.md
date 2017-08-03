@@ -60,7 +60,7 @@ all files needed to properly view the page.*
   gs -q -dNOPAUSE -dBATCH -sDEVICE=pdfwrite -sOutputFile=unencrypted.pdf -c .setpdfwrite -f encrypted.pdf
   ```
 
-#### ffmpeg
+#### Audio/Video
 
 * Rotate video
 
@@ -125,6 +125,18 @@ all files needed to properly view the page.*
 
   ```
   ffmpeg -i Birdman.mp4 -strict -2  -s 720x480 birdman.mp4
+  ```
+
+* recordmydesktop
+
+  ```
+  recordmydesktop -x 100 -y 100 --width 1280 --height 720 --freq 48000 --fps 30 -o ~/Videos/recordings/test-video.ogv
+  ```
+
+* Include subtitles(Use `subtitleeditor` to create subtitle)
+
+  ```
+  ffmpeg -i video.avi -vf subtitles=subtitle.srt out.avi
   ```
 
 #### Image manipulation
