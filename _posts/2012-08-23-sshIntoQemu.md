@@ -28,13 +28,17 @@ using SSH.
 On Debian based distros(Ubuntu, Mint etc.) install qemu using the
 command
 
-    sudo apt-get install qemu-system
+``` bash
+sudo apt-get install qemu-system
+```
 
 This will install all qemu-system binaries for all major CPU
 architectures. If you are having RPM based distro(like Redhat, Fedora
 etc.), type
 
-    sudo yum install qemu
+``` bash
+sudo yum install qemu
+```
 
 Optionally you can also compile qemu from the latest stable
 [source](http://wiki.qemu.org/download/qemu-1.2.0-rc0.tar.bz2). Please
@@ -44,12 +48,16 @@ refer the README for compilation instructions.
 
 We need to first create a raw qemu image using the command
 
-    qemu-img create -f raw IMAGE_NAME.img SIZE
+``` bash
+qemu-img create -f raw IMAGE_NAME.img SIZE
+```
 
 For example, if I want to create an image of 32 Gigs with the name
 _ics-testing.img_, the command would be
 
-    qemu-img create -f raw ics-testing.img 32G
+``` bash
+qemu-img create -f raw ics-testing.img 32G
+```
 
 Once the image is created, we can use it as a raw disk image and
 install an OS(Distro of your choice). In this case I will install
@@ -58,15 +66,26 @@ install an OS(Distro of your choice). In this case I will install
 
 The syntax would be
 
-    qemu-system-ARCH -vnc none,ipv4 -hda IMAGE_NAME -cdrom /PATH/TO/ISO/FILE -m MEMORY -enable-kvm
+``` bash
+qemu-system-<ARCH> \
+-vnc none,ipv4 \
+-hda <IMAGE_NAME> \
+-cdrom </PATH/TO/ISO/FILE> \
+-m <MEMORY_SIZE> \
+-enable-kvm
+```
 
 For example, if my system arch is `x86-64` and my ISO path is
 `/home/devils/iso/ubuntu-12.04-desktop-amd64.iso` with memory as 4
 Gigs. Also I want to enable kernel based virtualization.
 
-    qemu-system-x86_64 -vnc none,ipv4 -hda ics-testing.img \
-    -cdrom /home/devils/iso/ubuntu-12.04-desktop-amd64.iso \
-    -m 4096 -enable-kvm
+``` bash
+qemu-system-x86_64 \
+-vnc none,ipv4 \
+-hda ics-testing.img \
+-cdrom /path/to/iso/ubuntu-12.04-desktop-amd64.iso \
+-m 4096 -enable-kvm
+```
 
 this will pop up a qemu window. Proceed with the installation and
 reboot the system.
@@ -75,16 +94,23 @@ reboot the system.
 
 Once the installation is complete, boot the image by typing,
 
-    qemu-system-x86_64 -vnc none,ipv4 -hda ics-testing.img \
-    -m 4096 -enable-kvm
+``` bash
+qemu-system-x86_64 \
+-vnc none,ipv4 -hda ics-testing.img \
+-m 4096 -enable-kvm
+```
 
 Now configure the system, its package manager and user account.
 Install Openssh-server and enable SSH login. If everything is
 configured, restart using,
 
-    qemu-system-x86_64 -vnc none,ipv4 -hda ics-testing.img \
-    -m 4096 -enable-kvm \
-    -redir tcp:2200::22
+``` bash
+qemu-system-x86_64 \
+-vnc none,ipv4 \
+-hda ics-testing.img \
+-m 4096 -enable-kvm \
+-redir tcp:2200::22
+```
 
 The `-redir tcp:2200::22` redirects TCP traffic on the host port 2200
 to the guest machine (QEMU) port 22. This allows us to SSH to the port
@@ -96,7 +122,9 @@ to the guest machine (QEMU) port 22. This allows us to SSH to the port
 
     You can ssh into the running qemu system using a command
 
-        ssh -p PORT USER@IP-address or HOSTNAME
+	``` bash
+	ssh -p PORT USER@IP-address or HOSTNAME
+	```
 
     for example, if I want to connect to port 2200 of `localhost` with
     username as `qemu-user`, then
@@ -114,12 +142,16 @@ intact.
 
 syntax:
 
-    qemu-img create -f qcow2 -b ORIGINAL_IMAGE_NAME SNAPSHOT_IMAGE_NAME
+``` bash
+qemu-img create -f qcow2 -b <ORIGINAL_IMAGE_NAME> <SNAPSHOT_IMAGE_NAME>
+```
 
 As my original image name was _ics-testing.img_, Let my snapshot image
 name be _snapshot.img_. Type
 
-    qemu-img create -f qcow2 -b ics-testing.img snapshot.img
+``` bash
+qemu-img create -f qcow2 -b ics-testing.img snapshot.img
+```
 
 `-f` flag will specify image format. In this case it is `qcow2` which
 is most versatile qemu-image format. Please refer man-pages for more
@@ -129,9 +161,13 @@ detail.
 
 You can use the snapshot image using
 
-    qemu-system-x86_64 -vnc none -hda snapshot.img \
-    -m 4096 -enable-kvm \
-    -redir tcp:2200::22
+``` bash
+qemu-system-x86_64 \
+-vnc none \
+-hda snapshot.img \
+-m 4096 -enable-kvm \
+-redir tcp:2200::22
+```
 
 ### Tips
 

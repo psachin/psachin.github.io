@@ -140,12 +140,14 @@ Finally, an additional disk will be attached to VM.
 _Note that the feature work on **euwe** release of ManageIQ. If not
 already done, please upgrade ManageIQ version following below steps._
 
-	# SSH to ManageIQ
-	vmdb
-	git fetch --all
-	git checkout euwe-2
-	git checkout -b euwe-2
-	bundle install
-	# or bin/install
-	bundle exec rake evm:compile_assets
-	bundle exec rake evm:restart
+``` bash
+# SSH to ManageIQ
+vmdb
+git fetch --all
+git checkout euwe-2
+git checkout -b euwe-2
+bundle install
+# or bin/install
+bundle exec rake evm:compile_assets
+bundle exec rake evm:restart
+```

@@ -22,7 +22,9 @@ file(`patch-linux-3.0.42+_elan_ts.patch`).
 Unpack and change directory to your linux kernel version you want to
 apply the patch for. I this case my kernel version is 3.0.42+
 
-    cd linux-3.0.42+
+``` bash
+cd linux-3.0.42+
+```
 
 I have a patch file in the `~/Downloads` directory. Patch files
 generally ends with `.patch`. This helps in differentiating them as
@@ -31,8 +33,9 @@ patches.
 It is always recommended to do a dry run before actually applying a
 patch.
 
-    patch -p1 --dry-run < ~/Downloads/patch-linux-3.0.42+_elan_ts.patch
-
+``` bash
+patch -p1 --dry-run < ~/Downloads/patch-linux-3.0.42+_elan_ts.patch
+```
 
 1. `-p1` stands for verbosity. For more information, please refer
     comment by *Yogesh* [here](http://www.cyberciti.biz/faq/appy-patch-file-using-patch-command/).
@@ -43,11 +46,15 @@ output as if the patch is really applied.
 If `--dry-run` applies a patch without any error message, you can go
 ahead an apply a real patch.
 
-    patch -p1 < ~/Downloads/patch-linux-3.0.42+_elan_ts.patch
+``` bash
+patch -p1 < ~/Downloads/patch-linux-3.0.42+_elan_ts.patch
+```
 
 Now if you want to remove a patch just add the flag `-R`. For example,
 
-    patch -R -p1 < ~/Downloads/patch-linux-3.0.42+_elan_ts.patch
+``` bash
+patch -R -p1 < ~/Downloads/patch-linux-3.0.42+_elan_ts.patch
+```
 
 Remember you have to give full path to your patch file when you apply
 or revert a patch. If you plan to apply or revert a patch it is

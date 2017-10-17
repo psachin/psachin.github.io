@@ -177,8 +177,10 @@ following
 [wiki page](https://asteroidos.org/wiki/building-asteroidos/). On
 Fedora-25, one need to install following dependencies
 
-	# dnf install -y git perl-bignum git patch chrpath gawk diffstat texinfo libaccounts-glib libaccounts-glib-devel
-	# dnf groupinstall -y "C Development Tools and Libraries"
+``` bash
+sudo dnf install -y git perl-bignum git patch chrpath gawk diffstat texinfo libaccounts-glib libaccounts-glib-devel
+sudo dnf groupinstall -y "C Development Tools and Libraries"
+```
 
 
 #### Unofficial build
@@ -187,7 +189,6 @@ Fedora-25, one need to install following dependencies
   ZenWatch2:
   [asteriodOS-alpha-1.0](https://mega.nz/#F!DshE3DKY!4cX_nQ2iSo3sMkZ3TXLvQA)(_Compiled
   on: Feb 18, 2017_):
-
 
 
 AsteroidOS unlocks new doors for Smartwatch Operating system with

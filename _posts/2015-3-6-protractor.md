@@ -21,7 +21,7 @@ install Node.js
 3. Configure, compile, and install using
 
 
-```sh
+``` sh
 cd node
 ./configure
 make

@@ -48,7 +48,9 @@ as module.
 I recompiled the kernel and inserted SD-card. Nothing showed up in
 `dmesg` log. I loaded the module manually using the command
 
-    modprobe rtsx_usb
+``` bash
+modprobe rtsx_usb
+```
 
 But still the SD-card was not detected. Something was still missing. I
 went ahead and searched the Linux kernel config for
