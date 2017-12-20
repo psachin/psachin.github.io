@@ -72,17 +72,28 @@ highlighter: rouge
 permalink: /:title/
 
 # The release of Jekyll Now that you're using
-version: v1.2.0
+version: 3.6.2
 
 # Jekyll 3 now only supports Kramdown for Markdown
+encoding: UTF-8
 kramdown:
-  # Use GitHub flavored markdown, including triple backtick fenced code blocks
   input: GFM
-  # Jekyll 3 and GitHub Pages now only support rouge for syntax highlighting
+  hard_wrap: false
+future: true
+jailed: false
+gfm_quirks: paragraph_end
+
+#  DO NOT CHANGE
+lsi: false
+# safe: true
+# source: _posts
+incremental: false
+highlighter: rouge
+gist:
+  noscript: false
+kramdown:
+  math_engine: mathjax
   syntax_highlighter: rouge
-  syntax_highlighter_opts:
-    # Use existing pygments syntax highlighting css
-    css_class: 'highlight'
 
 # Set the Sass partials directory, as we're using @imports
 sass:
@@ -101,4 +112,3 @@ exclude:
   - Gemfile.lock
   - LICENSE
   - README.md
-  - CNAME
