@@ -37,9 +37,11 @@ prefer
 I usually work on this system.
 
 My other system includes Acer _emachines_ eM350 netbook also running
-Slackware. I also have an old desktop with AMD Athlon with 2 Gigs of
-RAM running Slackware again!. The system's storage is shared via NFS
-across my home network, basically this is my NFS server.
+Slackware. I use it as a hotspot using
+[hotspotd](https://github.com/psachin/hotspotd). I also have an old
+desktop with AMD Athlon with 2 Gigs of RAM running Slackware again!.
+The system's storage is shared via NFS across my home network,
+basically this is my NFS server.
 
 Apart from this I had a very old Intel Pentium II Machine with 350MHz
 processor and 64MB of RAM running Vector Linux. ~~I wonder how this
@@ -53,7 +55,7 @@ with minimal shell and `opkg` package manager.
 
 ##### @Work
 
-*Generating...*
+At work I use Lenovo Thinkpad T440p for development running [Fedora](https://getfedora.org/).
 
 ### Tools I use
 
