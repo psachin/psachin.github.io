@@ -12,31 +12,36 @@ Manually install Python-3.5 in Red Hat Enterprise Linux
 
 ### Install required dependencies
 
-	yum install zlib-devel openssl-devel readline \
-	readline-devel sqlite-devel tkinter ncurses-static \
-	ncurses-base ncurses-term -y
+{% highlight bash linenos %}
+yum install zlib-devel openssl-devel readline \
+readline-devel sqlite-devel tkinter ncurses-static \
+ncurses-base ncurses-term -y
+{% endhighlight %}
+
 
 ### Download, Configure, & Install Python
 
 Download and extract the tarball
 
-	wget --progress=bar \
-	https://www.python.org/ftp/python/3.5.2/Python-3.5.2.tar.xz
+{% highlight bash linenos %}
+wget --progress=bar https://www.python.org/ftp/python/3.5.2/Python-3.5.2.tar.xz
 
-	# Extract tarball
-	tar xvJf Python-3.5.2.tar.xz
-
+# Extract tarball
+tar xvJf Python-3.5.2.tar.xz
+{% endhighlight %}
 
 Configure and install
 
-	cd Python-3.5.2
-	./configure --prefix=/usr/local
+{% highlight bash linenos %}
+cd Python-3.5.2
+./configure --prefix=/usr/local
 
-	# make [-jX], where X is number of jobs.
-	# This can be less-than or equal to number
-	# of cpu-cores
-	make -j4
-	make install
+# make [-jX], where X is number of jobs.
+# This can be less-than or equal to number
+# of cpu-cores
+make -j4
+make install
+{% endhighlight %}
 
 
 *Sample tailed output*
@@ -55,18 +60,26 @@ Configure and install
 
 You should have successfully installed Python-3.5.2 by now.
 
-	which python3.5
-	/usr/local/bin/python3.5 #  Output
+{% highlight bash linenos %}
+which python3.5
+#  Output
+/usr/local/bin/python3.5
+{% endhighlight %}
+
 
 ### [Optional] Create virtual environment
 
 You can go head and try creating Python virtual environment
 using [pyenv](https://docs.python.org/3/library/venv.html).
 
-	pyvenv py3
-	source py3/bin/activate
+{% highlight bash linenos %}
+pyvenv py3
+source py3/bin/activate
+{% endhighlight %}
 
 Once inside the virtual environment, verify Python version
 
-	(py3) [jedi@pywar ~]$ python --version
-	Python 3.5.2
+{% highlight bash linenos %}
+(py3) [jedi@pywar ~]$ python --version
+Python 3.5.2
+{% endhighlight %}

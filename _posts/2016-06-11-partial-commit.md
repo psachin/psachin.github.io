@@ -20,7 +20,10 @@ are worth it).
 As usual, I start by adding a file, but this time, instead of using
 `git add <FILENAME>`, I'll include an option `--patch` to `git-add`,
 
-	git add --patch <FILENAME>
+{% highlight bash linenos %}
+git add --patch <FILENAME>
+{% endhighlight %}
+
 
 This will give me a chance to review my changes. Git carefully scans
 my changes, and will prompt me for every hunk he detects modified

@@ -177,8 +177,10 @@ following
 [wiki page](https://asteroidos.org/wiki/building-asteroidos/). On
 Fedora-25, one need to install following dependencies
 
-	# dnf install -y git perl-bignum git patch chrpath gawk diffstat texinfo libaccounts-glib libaccounts-glib-devel
-	# dnf groupinstall -y "C Development Tools and Libraries"
+{% highlight bash linenos %}
+dnf install -y git perl-bignum git patch chrpath gawk diffstat texinfo libaccounts-glib libaccounts-glib-devel
+dnf groupinstall -y "C Development Tools and Libraries"
+{% endhighlight %}
 
 
 #### Unofficial build
@@ -189,10 +191,7 @@ Fedora-25, one need to install following dependencies
   on: Feb 18, 2017_):
 
 
-
 AsteroidOS unlocks new doors for Smartwatch Operating system with
 end-users no longer have to only depend on Android Wear. AsteroidOS
 community is very active and responsive. I encourage users to try out
 AsteroidOS on smartwatch and give feedback to AsteroidOS community.
-
-
