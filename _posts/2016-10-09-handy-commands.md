@@ -151,3 +151,13 @@ convert dragon.gif -resize 50% half_dragon.gif
 {% highlight bash linenos %}
 convert input.png -quality 75 output.jpg
 {% endhighlight %}
+
+## Clean up `~/.ccache/` directory
+
+{% highlight bash linenos %}
+# View statistics using
+ccache -s
+
+# Clear cache using
+ccache -C
+{% endhighlight %}
