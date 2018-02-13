@@ -36,12 +36,13 @@ prefer
 [latest kernel](https://github.com/psachin/bash_scripts/blob/master/build_my_kernel.sh)).
 I usually work on this system.
 
-My other system includes Acer _emachines_ eM350 netbook also running
-Slackware. I use it as a hotspot using
-[hotspotd](https://github.com/psachin/hotspotd). I also have an old
+My other system includes Acer _emachines_ eM350 netbook running
+[Manjaro Linux](https://manjaro.org/) an independently developed [Arch
+Linux](https://www.archlinux.org/). I use it as a hotspot using
+[hotspotd](https://github.com/psachin/hotspotd). ~~I also have an old
 desktop with AMD Athlon with 2 Gigs of RAM running Slackware again!.
 The system's storage is shared via NFS across my home network,
-basically this is my NFS server.
+basically this is my NFS server.~~
 
 Apart from this I had a very old Intel Pentium II Machine with 350MHz
 processor and 64MB of RAM running Vector Linux. ~~I wonder how this
@@ -100,10 +101,7 @@ All my presentation slides are pushed to
 [https://github.com/psachin/slides](https://github.com/psachin/slides).
 With few exceptions(Online):
 
-* [Design your private cloud with
-  RHOSP](http://redhat.slides.com/psachin/rh-forum-2016): Introduction
-  to Red Hat OpenStack Platform, Red Hat forum 2016.
-  [[PDF](https://github.com/psachin/slides/raw/master/RH-forum-2016/design-your-private-cloud-openstack-redhat.slides.com.pdf) | [LaTeX Beamer](https://github.com/psachin/slides/blob/master/RH-forum-2016/design-your-private-cloud-openstack.pdf)]
+* Red Hat forum: [2016](http://redhat.slides.com/psachin/rh-forum-2016), [2017](https://github.com/psachin/slides/blob/master/RH-forum/RedHatCloudForms-2017-Sachin.pdf)
 
 * [GNU Hackers Meeting-2016](http://psachin.github.io/.emacs.d/):
   Manage GNU Emacs configuration using [literate
