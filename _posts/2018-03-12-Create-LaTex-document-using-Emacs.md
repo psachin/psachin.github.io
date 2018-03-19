@@ -29,14 +29,12 @@ emacs -q --no-splash helloworld.org
 `--no-splash-screen` flag prevents displaying splash screen to ensure
 you have only one window opened with file `helloworld.org`.
 
-[IMAGE: emacs_startup.png]
-(Caption: GNU Emacs with file helloworld.org opened in a buffer window.)
+![GNU Emacs with file helloworld.org opened in a buffer window.](https://raw.githubusercontent.com/psachin/psachin.github.io/os.com/images/emacs-latex-opensource.com/emacs_startup.png)
 
 Its time to put some LaTeX headers. We do this the Emacs way. Go to
 **Org** in menu-bar and select **Export/Publish**.
 
-[IMAGE: insert_template_flow.png]
-(Caption: Insert default template)
+![Insert default template](https://raw.githubusercontent.com/psachin/psachin.github.io/os.com/images/emacs-latex-opensource.com/insert_template_flow.png)
 
 In next window, Emacs give options to either export or insert a
 template, insert the template by entering **#**([#] Insert template).
@@ -95,8 +93,7 @@ asterisk(*). I'll copy content of paragraphs from Aaron's post,
   libero maximus commodo.
 ```
 
-[IMAGE: helloworld_file.png]
-(Caption: Contents of helloworld.org file)
+![Contents of helloworld.org file](https://github.com/psachin/psachin.github.io/raw/os.com/images/emacs-latex-opensource.com/helloworld_file.png)
 
 With content in place, its time to export the content as PDF. Select
 **Export/Publish** from **Org** menu again but this time type
@@ -104,11 +101,9 @@ With content in place, its time to export the content as PDF. Select
 open**). This not only opens PDF file for you to view but also save
 file as `helloworld.pdf` in the same path as `helloworld.org`.
 
-[IMAGE: org_to_pdf.png]
-(Caption: Export helloworld.org to helloworld.pdf.)
+![Export helloworld.org to helloworld.pdf](https://github.com/psachin/psachin.github.io/raw/os.com/images/emacs-latex-opensource.com/org_to_pdf.png)
 
-[IMAGE: org_and_pdf_file.png]
-(Caption: helloworld.pdf file opened at the bottom.)
+![helloworld.pdf file opened at the bottom](https://github.com/psachin/psachin.github.io/raw/os.com/images/emacs-latex-opensource.com/org_and_pdf_file.png)
 
 You can also export org to PDF by pressing `Alt + x` followed by
 typing "org-latex-export-to-pdf". Use TAB to auto-complete.
@@ -116,8 +111,7 @@ typing "org-latex-export-to-pdf". Use TAB to auto-complete.
 Guess what's more? Emacs also creates `helloworld.tex` file for you to
 have fine control.
 
-[IMAGE: org_tex_pdf.png]
-(Caption: Emacs with LaTeX, org and PDF file opened in three windows)
+![Emacs with LaTeX, org and PDF file opened in three windows](https://github.com/psachin/psachin.github.io/raw/os.com/images/emacs-latex-opensource.com/org_tex_pdf.png)
 
 You can compile `.tex` file to `.pdf` using the
 command,
@@ -183,8 +177,7 @@ using the same file with some modifications as below,
 To export to PDF press `Alt + x` followed by typing
 "org-beamer-export-to-pdf".
 
-[IMAGE: LaTeX_Beamer_presentation.png]
-(Caption: Latex Beamer presentation created using Emacs and Org mode.)
+![Latex Beamer presentation created using Emacs and Org mode](https://github.com/psachin/psachin.github.io/raw/os.com/images/emacs-latex-opensource.com/LaTeX_Beamer_presentation.png)
 
 Emacs Org mode has lot more to offers than we covered in this post.
 Please refer
