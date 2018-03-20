@@ -29,12 +29,14 @@ emacs -q --no-splash helloworld.org
 `--no-splash-screen` flag prevents displaying splash screen to ensure
 you have only one window opened with file `helloworld.org`.
 
-![GNU Emacs with file helloworld.org opened in a buffer window.](https://raw.githubusercontent.com/psachin/psachin.github.io/os.com/images/emacs-latex-opensource.com/emacs_startup.png)
+[IMAGE: emacs_startup.png]
+(Caption: GNU Emacs with file helloworld.org opened in a buffer window.)
 
 Its time to put some LaTeX headers. We do this the Emacs way. Go to
 **Org** in menu-bar and select **Export/Publish**.
 
-![Insert default template](https://raw.githubusercontent.com/psachin/psachin.github.io/os.com/images/emacs-latex-opensource.com/insert_template_flow.png)
+[IMAGE: insert_template_flow.png]
+(Caption: Images illustrating how to insert a default template.)
 
 In next window, Emacs give options to either export or insert a
 template, insert the template by entering **#**([#] Insert template).
@@ -70,7 +72,7 @@ below.
 #+EMAIL: psachin@redhat.com
 ```
 
-I don't want table of content to be created for now hence I change value of
+I don't want table of content to be created for now, hence I change value of
 `toc` from `t` to `nil` in line as shown below.
 ```
 #+OPTIONS: tags:t tasks:t tex:t timestamp:t toc:nil todo:t |:t
@@ -93,7 +95,8 @@ asterisk(*). I'll copy content of paragraphs from Aaron's post,
   libero maximus commodo.
 ```
 
-![Contents of helloworld.org file](https://github.com/psachin/psachin.github.io/raw/os.com/images/emacs-latex-opensource.com/helloworld_file.png)
+[IMAGE: helloworld_file.png]
+(Caption: Contents of helloworld.org file)
 
 With content in place, its time to export the content as PDF. Select
 **Export/Publish** from **Org** menu again but this time type
@@ -101,17 +104,20 @@ With content in place, its time to export the content as PDF. Select
 open**). This not only opens PDF file for you to view but also save
 file as `helloworld.pdf` in the same path as `helloworld.org`.
 
-![Export helloworld.org to helloworld.pdf](https://github.com/psachin/psachin.github.io/raw/os.com/images/emacs-latex-opensource.com/org_to_pdf.png)
+[IMAGE: org_to_pdf.png]
+(Caption: Export helloworld.org to helloworld.pdf)
 
-![helloworld.pdf file opened at the bottom](https://github.com/psachin/psachin.github.io/raw/os.com/images/emacs-latex-opensource.com/org_and_pdf_file.png)
+[IMAGE: org_and_pdf_file.png]
+(Caption: helloworld.pdf file opened at the bottom)
 
 You can also export org to PDF by pressing `Alt + x` followed by
 typing "org-latex-export-to-pdf". Use TAB to auto-complete.
 
 Guess what's more? Emacs also creates `helloworld.tex` file for you to
-have fine control.
+have fine control over the content.
 
-![Emacs with LaTeX, org and PDF file opened in three windows](https://github.com/psachin/psachin.github.io/raw/os.com/images/emacs-latex-opensource.com/org_tex_pdf.png)
+[IMAGE: org_tex_pdf.png]
+(Caption: Emacs with LaTeX, org and PDF file opened in three different windows)
 
 You can compile `.tex` file to `.pdf` using the
 command,
@@ -174,12 +180,21 @@ using the same file with some modifications as below,
     - Link two
 ```
 
+I have just added three more lines to header,
+```
+#+LATEX_CLASS: beamer
+#+BEAMER_THEME: Frankfurt
+#+BEAMER_INNER_THEME: rounded
+```
+
 To export to PDF press `Alt + x` followed by typing
 "org-beamer-export-to-pdf".
 
-![Latex Beamer presentation created using Emacs and Org mode](https://github.com/psachin/psachin.github.io/raw/os.com/images/emacs-latex-opensource.com/LaTeX_Beamer_presentation.png)
+[IMAGE: LaTeX_Beamer_presentation.png]
+(Caption: Latex Beamer presentation created using Emacs and Org mode)
 
-Emacs Org mode has lot more to offers than we covered in this post.
-Please refer
+Hope it was fun creating a LaTeX and Beamer document using Emacs. It
+is faster when using keyboard shortcuts than a mouse. Emacs Org-mode
+has lot more to offers than we covered in this post. Please refer
 [orgmode.org](https://orgmode.org/worg/org-tutorials/org-latex-export.html)
 to learn more.
