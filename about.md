@@ -27,13 +27,11 @@ Benjamin Mako Hill.
 
 ##### @Home
 
-My current system
-is
-[Lenovo G505s](https://plus.google.com/photos/photo/113870692888444102463/6355020254313100738?icm=false&sqid=104043194426129544738&ssid=2c4bb3f4-0eed-4d83-9385-eb6e51a01dc9) with
-AMD A8 Quad-core processor and 8 Gigs of RAM running Slackware 14.1(I
-always
-prefer
-[latest kernel](https://github.com/psachin/bash_scripts/blob/master/build_my_kernel.sh)).
+My current system is [Lenovo
+G505s](https://plus.google.com/photos/photo/113870692888444102463/6355020254313100738?icm=false&sqid=104043194426129544738&ssid=2c4bb3f4-0eed-4d83-9385-eb6e51a01dc9)
+with AMD A8 Quad-core processor and 8 Gigs of RAM running Slackware
+14.1(I always prefer [latest
+kernel](https://github.com/psachin/bash_scripts/blob/master/build_my_kernel.sh)).
 I usually work on this system.
 
 My other system includes Acer _emachines_ eM350 netbook running
@@ -51,31 +49,35 @@ runs](https://plus.google.com/+Sachinp/posts/UMCp3L6NiAn?pid=5864821069617337218
 
 Most of my home network and Internet connection is managed by D-LINK
 DIR-615E wireless router flashed with custom
-OpenWRT(_barrier-breaker_). This is my backup(and tiny) Linux system
-with minimal shell and `opkg` package manager.
+[OpenWRT(_barrier-breaker_)](https://openwrt.org/). This is my
+backup(and tiny) Linux system with minimal shell and `opkg` package
+manager.
 
 ##### @Work
 
-At work I use Lenovo Thinkpad T440p for development running [Fedora](https://getfedora.org/).
+For work, I have Lenovo Thinkpad T440p running
+[Fedora](https://getfedora.org/).
 
 ### Tools I use
 
 ![img]({{ site.baseurl }}/images/about/tools-server-small.png){: .center-image}
 
-Emacs and a terminal are the least I need.
+[GNU Emacs](https://www.gnu.org/software/emacs/) and a terminal are
+the least I need.
 
-I prefer to use latest Emacs version. My Emacs is
-heavily [configured](https://github.com/psachin/.emacs.d) for all my
-needs from programming(Python, Django, C, elisp, Ruby, shell etc.),
-blog & note taking(org-mode), eshell, tramp, magit etc. Recently I
-fell in love with `M-x emacs-timemachine`. Terminal is occasionally
-needed to keep some front-end jobs running.
+I prefer to use latest Emacs version. My Emacs is heavily
+[configured](https://github.com/psachin/.emacs.d) for all my needs
+from programming(Python, Django, C, elisp, Ruby, shell etc.), blog &
+note taking(org-mode), eshell, tramp, magit etc. Recently I fell in
+love with `M-x emacs-timemachine`. Terminal is occasionally needed to
+keep some front-end jobs running.
 
-`Git` is something I can't live without. I use Git to keep track of my
-personal notes, blogs, and all the projects. `magit` is a savior. It
-helps me a lot to learn insights of Git.
+[Git](http://git-scm.com) is something I can't live without. I use Git
+to keep track of my personal notes, blogs, and all the projects.
+`magit` is a savior. It helps me a lot to learn insights of Git.
 
-I prefer `Gnus` over `mutt` to manage mails.
+I prefer [Gnus](https://www.emacswiki.org/emacs/GnusTutorial) over
+[mutt](http://www.mutt.org/) to manage mails.
 
 ### More..
 
@@ -117,8 +119,9 @@ With few exceptions(Online):
 
 ### Articles
 
-* [Getting started with Emacs text
-  editor(opensource.com)](https://opensource.com/life/16/2/intro-to-emacs).
+* Published on [opensource.com](https://opensource.com/)
+  * [Getting started with Emacs text editor](https://opensource.com/life/16/2/intro-to-emacs)
+  * [How to create LaTeX documents with Emacs](https://opensource.com/article/18/4/how-create-latex-documents-emacs)
 
 * [GNU/Linux on Aakash](http://www.csi-india.org/communications/CSIC%20July%202013.pdf):
   An article published in CSI communications(July 2013)
@@ -134,7 +137,7 @@ With few exceptions(Online):
 
 ![img]({{ site.baseurl }}/images/about/skogskanten-300px.png){: .center-image}
 
-  `psachin@{RedHat, freenode, OFTC}`
+  `psachin@{RedHat, freenode, OFTC, GIMPNet}`
 
 ### Social
 
