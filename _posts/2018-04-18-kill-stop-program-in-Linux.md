@@ -19,7 +19,7 @@ Kill/Stop process using Command line
 	One of the problem invoking gedit from command-line(if you have
 	not started using `gedit &`) is that it will not free up the
 	prompt. As a result that shell session is blocked. In such case
-	Ctrl+C(Press Control key in combination with 'C') comes handy.
+	Ctrl+C(press Control key in combination with 'C') comes handy.
 	That will terminate `gedit` and all work is lost(unless the file
 	was saved).
 
@@ -54,8 +54,8 @@ Kill/Stop process using Command line
    $
    ```
 
-   Once the process is suspended(in this case gedit), it is not
-   possible to write or do anything with gedit. In the background, the
+   Once the process is suspended(gedit in this case), it is not
+   possible to write or do anything in gedit. In the background, the
    process becomes a _job_. This can be verified by `jobs` command.
 
    ```
@@ -100,10 +100,10 @@ Kill/Stop process using Command line
    Notice that the job ID should be prefixed with '%', else `kill`
    will consider it as PID.
 
-   `kill` can work without specifying signal. In that case a default
-   action is to send SIGTERM which terminated the process. Execute
-   `kill -l` to list all signal names and use `man kill` command to
-   the man-page.
+   `kill` can work without specifying a signal explicitly. In that
+   case a default action is to send SIGTERM which will terminate the
+   process. Execute `kill -l` to list all signal names and use `man
+   kill` command to read the man-page.
 
 3. Using `killall`
 
@@ -139,23 +139,22 @@ Kill/Stop graphical application
 1. Using `xkill`
 
 	Ever encountered an issue where media player like
-	[VLC](https://www.videolan.org/vlc/index.html) grayed out and you
-	are not able to do anything? Well now you can certainly find PID
-	and kill the application using above command or use `xkill`
-	instead.
+	[VLC](https://www.videolan.org/vlc/index.html) grayed out or in
+	hung state? Well now you can certainly find PID and kill the
+	application using above commands or use `xkill` instead.
 
 
 	[IMAGE: xkill_gedit.png]
 	Caption: Using xkill
 
-	`xkill` allows you to kill a windows using mouse, simply execute
+	`xkill` allows you to kill a windows using a mouse. Simply execute
 	`xkill` in a terminal which should change the mouse cursor to
 	**x** or a tiny skull icon and click **x** on a windows you want
 	to close. Be careful using `xkill` though, it can be dangerous as
-	it's man-page says. You have been warned!
+	the man-page says. You have been warned!
 
 
-This brings at the end of this article. We learned few techniques to
+This brings to the end of this article. We learned few techniques to
 kill & stop processes. Refer man-page of each command we discussed to
 understand it's usage & working. I have left commands like `pkill` and
 `pgrep` for you to explore.
