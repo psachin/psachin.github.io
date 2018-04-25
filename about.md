@@ -67,10 +67,10 @@ the least I need.
 
 I prefer to use latest Emacs version. My Emacs is heavily
 [configured](https://github.com/psachin/.emacs.d) for all my needs
-from programming(Python, Django, C, elisp, Ruby, shell etc.), blog &
-note taking(org-mode), eshell, tramp, magit etc. Recently I fell in
-love with `M-x emacs-timemachine`. Terminal is occasionally needed to
-keep some front-end jobs running.
+from programming(Python, Django, C, elisp, Ruby, shell etc.), blogs &
+note taking([org-mode](https://orgmode.org/)), eshell, tramp, magit
+etc. Recently I fell in love with `M-x emacs-timemachine`. Terminal is
+occasionally needed to keep some front-end jobs running.
 
 [Git](http://git-scm.com) is something I can't live without. I use Git
 to keep track of my personal notes, blogs, and all the projects.
@@ -130,8 +130,10 @@ With few exceptions(Online):
 
 * [Configuring Huawei-EC152
   modem](http://www.linuxquestions.org/linux/answers/hardware/configuring_huaweiec152_modem):
-  My very first article appeared on linuxquestions.org. I just started using
-  GNU/Linux that time and USB-modeswitch was also quite new.
+  My very first article appeared on
+  [linuxquestions.org](https://www.linuxquestions.org/). I just
+  started using GNU/Linux that time and USB-modeswitch was also quite
+  new.
 
 ### IRC
 
