@@ -92,6 +92,9 @@ cd tripleo-quickstart
   telemetry. To enable telemetry remove following lines from
   `pacemaker.yml`. I usually save file as `pacemaker-enable-telemetry.yml`
 
+{% gist 97708deb39aa60484c95a9df6f535ba6 %}
+
+..and deploy using,
 {% highlight bash linenos %}
 ./quickstart.sh --config config/general_config/pacemaker-enable-telemetry.yml \
 -N config/nodes/1ctlr_1comp.yml \
