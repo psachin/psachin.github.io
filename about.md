@@ -120,9 +120,9 @@ With few exceptions(Online):
 ### Articles
 
 * Published on [opensource.com](https://opensource.com/)
-  * [Getting started with Emacs text editor](https://opensource.com/life/16/2/intro-to-emacs)
-  * [How to create LaTeX documents with Emacs](https://opensource.com/article/18/4/how-create-latex-documents-emacs)
   * [How to kill a process or stop a program in Linux](https://opensource.com/article/18/5/how-kill-process-stop-program-linux)
+  * [How to create LaTeX documents with Emacs](https://opensource.com/article/18/4/how-create-latex-documents-emacs)
+  * [Getting started with Emacs text editor](https://opensource.com/life/16/2/intro-to-emacs)
 
 * [GNU/Linux on Aakash](http://www.csi-india.org/communications/CSIC%20July%202013.pdf):
   An article published in CSI communications(July 2013)
