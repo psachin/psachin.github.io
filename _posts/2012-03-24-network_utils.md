@@ -1,22 +1,22 @@
 ---
 layout: post
-title: Assign IP address via command-line
+title: Network utilities
 tags: ifconfig, ip, command line, terminal
 category: blog
-permalink: /blog/ipaddress-commandline/
+permalink: /blog/network-utils/
 author: sachin
 comments: true
 ---
 
-Sometimes, assigning IP address using command line is much more easier
-than using Network manager applet, this post covers examples with
-syntax
 
-(Updated on June 17, 2017)
+Few network configuration which can be performed using CLI, this post
+covers examples with syntax.
+
+(Updated on Aug 09, 2018)
 
 
 _Note_: You must be `root` or `sudo` user to run following commands.
-`ifconfig` has been deprecated in favor of `ip`
+_Note_: `ifconfig` has been deprecated in favor of `ip`
 
 ## Assign IP address
 
@@ -54,6 +54,20 @@ Example
 
 	ip route add default via 192.168.1.1 dev eth0
 
+## Temporary spoof MAC address
+
+Syntax
+
+	ip link set down dev DEVICE_NAME
+	ip link set dev DEVICE_NAME address AA:BB:CC:DD:EE:FF
+	ip link set up dev DEVICE_NAME
+
+Example
+
+	ip link set down dev enp0s21
+	ip link set dev enp0s21 address AA:BB:CC:DD:EE:FF
+	ip link set up dev enp0s21
+
 ## Set DNS address
 
 Optionally DNS can be entered in the file `/etc/resolv.conf` in
@@ -71,12 +85,38 @@ All the above changes will be temporary(unless you reboot the system)
   network. You can reach network range of 10.10.10.0/24 via
   192.168.1.11 on device `eth0`
 
-		ip route add 10.10.10.0/24 via 192.168.1.11 dev eth0
+      ip route add 10.10.10.0/24 via 192.168.1.11 dev eth0
 
 
-### Make routes persistent on Fedora
+### Make routes persistent(on Fedora/RHEL)
 
 Add following entry into the file
 `/etc/sysconfig/network-scripts/route-DEVICE_NAME`
 
 	10.10.10.0/24 via 192.168.1.11 dev DEVICE_NAME
+
+### CLI to control NetworkManager
+
+- Check overall status
+
+      nmcli general status
+
+- Show all connections
+
+      nmcli connection
+
+- Show details for specific connection
+
+      # Syntax
+      nmcli connection show <GENERAL.NAME>
+
+      # Example
+      nmcli connection show my-dsl-conn
+
+- Connect using connection name
+
+      # Syntax
+      nmcli connection up <GENERAL.NAME>
+
+      # Example
+      nmcli connection up my-dsl-conn
