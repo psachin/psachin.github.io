@@ -4,4 +4,4 @@ title: About
 permalink: /about/
 ---
 
-I moved to [psachin.gitlab.io/about/about.html](https://psachin.gitlab.io/about/about.html)
+I moved to [psachin.gitlab.io/about/](https://psachin.gitlab.io/about/)
